@@ -12,27 +12,36 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;900&display=swap" rel="stylesheet">
   <!-- Title -->
   <title>Tim Berners Lee</title>
 </head>
 <body>
   <header>
     <figure>
-      <img src="/images/tim_berners_lee.jpg" alt="portrait de Tim Berners Lee">
+      <img class="portrait" src="/images/tim_berners_lee.jpg" alt="portrait de Tim Berners Lee">
     </figure>
     <h1>Tim Berners Lee</h1>
     <h2>Inventor of HTML</h2>
-    <section>
+    <article>
       Tim Berners-Lee is the <strong>inventor</strong> of the Web. In 1989, Tim was working in a computing services section of CERN when he came up with the concept; at the time he had no idea that it would be implemented on such an <strong>enormous scales.</strong>
-    </section>
-    <button>See for yourself</button>
+    </article>
+    <div class="redBackground">See for yourself</div>
   </header>
   <main>
     <section id="socialIcons">
-      <i></i>
-      <i></i>
-      <i></i>
+      <div class="icon">
+        <div><i class="fa-brands fa-facebook-f"></i></div>
+        <div>Facebook</div>
+      </div>
+      <div class="icon">
+        <div><i class="fa-brands fa-linkedin-in"></i></div>
+        <div></div>Lindedin</div>
+      </div>
+      <div class="icon">
+        <div><i class="fa-brands fa-twitter"></i></div>
+        <div></div>Twitter</div>
+      </div>
     </section>
     <section id="favouriteMovies">
       <h2><span class="colorUnderText">His</span> favourite movies</h2>
