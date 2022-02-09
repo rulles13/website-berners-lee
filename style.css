@@ -66,21 +66,34 @@ h3{
 }
 
 .movie{
-  display: flex;
+  margin: 50px 0;
 }
 
-.movie_picture{
-  width: 20%;
-  object-fit: cover;
+.movie_text{
+  text-align: justify;
+  padding: 0 20px;
+
+}
+
+.movie_text h3{
+  text-align: center;
 }
 
 /* tablet landscape */
 
 @media only screen and (min-width: 768px) {
   body{
-    width: 40%;
+    width: 600px;
     margin: auto;
   }
   
+  .movie{
+    display: flex;
+  }
+
+  .movie_picture{
+    width: 20%;
+    object-fit: cover;
+  }
 
 }
