@@ -37,6 +37,9 @@ h3{
   margin-bottom: 20px;
 }
 
+.colorUnderText{
+  background-color: #ebebeb;
+}
 .portrait{
   width: 150px;
   height: 150px;
